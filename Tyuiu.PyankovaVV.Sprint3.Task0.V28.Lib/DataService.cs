@@ -10,7 +10,7 @@ namespace Tyuiu.PyankovaVV.Sprint3.Task0.V28.Lib
 {
     public class DataService : ISprint3Task0V28
     {
-        public double GetSumSeries(double value, int startValue, int stopValue)
+        public double GetMultiplySeries(double value, int startValue, int stopValue)
         {
             double proizvValue = 1;
             int i;

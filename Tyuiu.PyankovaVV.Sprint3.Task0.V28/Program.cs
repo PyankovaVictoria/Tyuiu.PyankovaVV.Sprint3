@@ -40,7 +40,7 @@ namespace Tyuiu.PyankovaVV.Sprint3.Task0.V28
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            double res = ds.GetSumSeries(value, startValue, stopValue);
+            double res = ds.GetMultiplySeries(value, startValue, stopValue);
             Console.WriteLine("Произведение ряда =" + res);
             Console.ReadKey();
         }
