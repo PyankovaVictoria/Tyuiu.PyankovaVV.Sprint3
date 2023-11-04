@@ -10,7 +10,7 @@ namespace Tyuiu.PyankovaVV.Sprint3.Task1.V19.Lib
 {
     public class DataService : ISprint3Task1V19
     {
-        public double GetMultiplySeries(double value, int startValue, int stopValue)
+        public double GetMultiplySeries(int value, int startValue, int stopValue)
         {
             double multiSeries = 1;
             while (startValue <= stopValue)
